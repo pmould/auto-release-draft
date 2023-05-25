@@ -1,8 +1,8 @@
 {
-  "name": "typescript-action",
+  "name": "Auto Release Draft",
   "version": "0.0.0",
   "private": true,
-  "description": "TypeScript template action",
+  "description": "Dreafts a Github release with the cahnges introduced by a newly created version tag",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+https://github.com/pmould/auto-release-draft.git"
   },
   "keywords": [
     "actions",
     "node",
     "setup"
   ],
-  "author": "",
+  "author": "Paul Mould",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.10.0"
